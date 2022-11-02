@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=VT323&display=swap");
 
 :root {
   --accent-color: #f8d1e1;
-  --text-color: #000;
+  --text-color: rgb(45, 45, 45);
   --text-color-white: #fff;
+  --rule-color: rgb(77, 77, 77);
   --pixel-font: "VT323", monospace;
-  --alt-font: "Roboto", sans-serif;
+  --text-font: "Cutive Mono", monospace;
 }
 
 body {
@@ -48,6 +49,8 @@ p {
 }
 
 .container {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,26 +70,34 @@ p {
   margin-bottom: 10px;
 }
 
-.choice {
-  margin-bottom: 5px;
+.sub-rule {
+  color: var(--rule-color);
+  font-family: var(--pixel-font);
+  font-size: 20px;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 .scoreboard {
   border: 3px solid var(--accent-color);
   border-radius: 10px;
-  width: 300px;
+  max-width: 400px;
   height: 75px;
-  margin: 30px;
-  padding: 0;
+  margin: 20px;
+  padding: 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
 }
 
-.score-line {
+.score-heart {
   color: var(--accent-color);
   font-size: 24px;
+}
+
+.result {
+  margin-bottom: 30px;
 }
 
 .reset {
