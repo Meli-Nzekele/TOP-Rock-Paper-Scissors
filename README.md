@@ -29,4 +29,4 @@ Live demo available at:
 
 ## **_Screenshot_**
 
-![TOP_RPS_Screenshot](/images/rps_screenshot.jpg)
+![TOP_RPS_Screenshot](/images/rps_screenshot.png)
