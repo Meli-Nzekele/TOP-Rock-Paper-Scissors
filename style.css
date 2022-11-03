@@ -128,15 +128,3 @@ p {
   background-color: var(--text-color);
   color: var(--accent-color);
 }
-
-footer {
-  margin-top: 30px;
-}
-
-footer,
-footer a {
-  color: var(--text-color);
-  font-size: 12px;
-  font-style: italic;
-  font-weight: 300;
-}
