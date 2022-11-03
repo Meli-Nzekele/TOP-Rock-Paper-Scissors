@@ -1,10 +1,8 @@
 # TOP-Rock-Paper-Scissors
 
-A classic game of rock, paper and scissors.
-
 ## **_Brief description_**
 
-This is a GUI-version of the classic RPS (Rock-Paper-Scissors)
+A classic game of rock, paper and scissors.
 
 This is the first project in the Javascript Basics module (Foundations path) of The Odin Project web-development course.
 
