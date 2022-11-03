@@ -11,32 +11,40 @@
 
 <body>
     <div class="container">
-        <h1>ROCK, PAPER... SCISSORS</h1>
+
+        <h1 class="typing">ROCK, PAPER... SCISSORS</h1>
+
         <span class="rules">Rules:</span>
         <p>"rock breaks scissors, paper covers rock & scissors cuts paper!"</p>
+        <p class="sub-rule" id="sub-rule">FIRST TO A SCORE OF FIVE WINS</p>
+
         <div class="scoreboard">
-            <span class="player-score" id="player-score">
-                <div class="choice player">Player
-                </div>0
-            </span><span class="score-line"><i class="fa-regular fa-heart"></i></span><span class="computer-score"
-                id="computer-score">
-                <div class="choice computer">Computer
-                </div>0
+            <div class="choice player">PLAYER
+            </div>
+            <span class="player-score" id="player-score">0
+            </span>
+
+            <i class="fa-regular fa-heart score-heart"></i>
+
+            <div class="choice computer">COMPUTER
+            </div>
+            <span class="computer-score" id="computer-score">0
             </span>
         </div>
+
         <div class="result" id="result"></div>
 
         <div class="choices">
-            <button class="rock-btn" id="rock-btn">Rock</button>
-            <button class="paper-btn" id="paper-btn">Paper</button>
-            <button class="scissors-btn" id="scissors-btn">Scissors</button>
+            <button class="choice-btn" id="rock">Rock</button>
+            <button class="choice-btn" id="paper">Paper</button>
+            <button class="choice-btn" id="scissors">Scissors</button>
         </div>
         <div>
-            <button class="reset">Reset</button>
+            <div class="reset" id="reset">RESET</div>
         </div>
-        <footer><a href="#">Built by Melissa Nzekele</a></footer>
+        <footer>Built by <a href="#">Melissa Nzekele</a></footer>
     </div>
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/a97a6c4a09.js" crossorigin="anonymous"></script>
 </body>
 
